@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comment Should render the comment box successfully 1`] = `
+<DocumentFragment>
+  <div
+    class="commentbox mb-2 media"
+  >
+    <div
+      class="author-image"
+    >
+      a
+    </div>
+    <div
+      class="media-body"
+    >
+      <p
+        class="comment"
+        data-testid="commentmessage"
+      >
+        this is test message
+      </p>
+      <p
+        class="author"
+      >
+        By abhishek at 2021-08-16 08:41:39
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

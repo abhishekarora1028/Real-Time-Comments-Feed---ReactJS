@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommentForm Should render the comment form successfully 1`] = `
+<DocumentFragment>
+  <form
+    class=""
+    data-testid="commentsform"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="py-2 col-sm-12"
+      />
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col-sm-12"
+      >
+        <div
+          class="form-group"
+        >
+          <label
+            class="form-label"
+            for="formBasicEmail"
+          >
+            Name
+          </label>
+          <input
+            class="form-control"
+            id="formBasicEmail"
+            name="name"
+            placeholder="Your name goes here..."
+            required=""
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col-sm-12"
+      >
+        <div
+          class="form-group"
+        >
+          <label
+            class="form-label"
+            for="formBasicEmail"
+          >
+            Comment
+          </label>
+          <textarea
+            class="form-control"
+            id="formBasicEmail"
+            name="message"
+            placeholder="Write your comment message here..."
+            required=""
+            rows="4"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="d-flex flex-row-reverse col-sm-12"
+      >
+        <button
+          class="btn btn-primary btn btn-primary"
+          data-testid="commentbutton"
+          type="button"
+        >
+          Comment
+        </button>
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;

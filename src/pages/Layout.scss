@@ -1,0 +1,18 @@
+.page {
+    background: var(--light);
+}
+.commentsForm{
+    padding: 1rem;
+    background: var(--white);
+    margin-bottom: 10px;
+}
+.notification-container--bottom-right {
+    bottom: 20px;
+    right: 320px;
+}
+.allComments {
+    border: 1px solid var(--white);
+    background: var(--white);
+    padding: 1rem;
+    text-align: center;
+}
